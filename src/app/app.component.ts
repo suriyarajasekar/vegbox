@@ -4,6 +4,7 @@ import { HttpClient } from '@angular/common/http'
 import { map } from 'rxjs/operators'
 import { pipe } from 'rxjs';
 import { analyzeAndValidateNgModules } from '@angular/compiler';
+
 //mat select interface
 interface Food {
   value: string;
@@ -25,6 +26,7 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
   title = 'vegbox';
   ProductData!:any;
+  cate :categories=new categories();
   ProductData1!:any;
   name:string="";
 
