@@ -1,9 +1,64 @@
 <!-- <P>vegbox</P>
 <p>hello</p>
 <app-dashboard></app-dashboard> -->
+<!-- matgrid start -->
 <mat-grid-list cols="4"  rowHeight="100px">
-  <mat-grid-tile [colspan]="1" [rowspan] ="5" [style.background]=" 'red' " >list</mat-grid-tile>
+ 
+  <mat-grid-tile [colspan]="4" [rowspan] ="1" [style.background]=" 'whitesmoke' "  class="headerFruits">
+   <div class="leftarrowimg">
+    <img src='assets/rightarrow.png'  width="50" height="60"  >
+  </div>
+    <div class="title">
+
+    
+    Fruits And Vegetables
+  </div>
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="1" [rowspan] ="5" [style.background]=" 'white ' "  >
+   
+    <!-- matcard start -->
+    <mat-card class="freshvegtables-card">
+      <mat-card-header>
+        <div mat-card-avatar class="freshvegtables-header-image"></div>
+      </mat-card-header>
+      <mat-card-title class="freshvegtables-card-title">Fresh Vegetables</mat-card-title>
+    </mat-card>
+<!-- matcard end-->
+ <!-- matcard start -->
+ <mat-card class="leaf-card">
+  <mat-card-header>
+    <div mat-card-avatar class="leaf-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="freshvegtables-card-title">Leafy & Seasoning</mat-card-title>
+</mat-card> 
+<!-- matcard end-->
+ <!-- matcard start -->
+ <mat-card class="mango-card">
+  <mat-card-header>
+    <div mat-card-avatar class="mango-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="freshvegtables-card-title">Fresh Fruits</mat-card-title>
+</mat-card>
+<!-- matcard end-->
+ <!-- matcard start -->
+ <mat-card class="exotics-card">
+  <mat-card-header>
+    <div mat-card-avatar class="exotics-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="freshvegtables-card-title">Exotics</mat-card-title>
+</mat-card>
+<!-- matcard end-->
+ <!-- matcard start -->
+ <mat-card class="freshcuts-card">
+  <mat-card-header>
+    <div mat-card-avatar class="freshcuts-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="freshvegtables-card-title">Fresh Cuts</mat-card-title>
+</mat-card>
+<!-- matcard end-->
+  </mat-grid-tile>
   <mat-grid-tile  [colspan]="3"  [rowspan] ="1" [style.background]=" 'green' ">display</mat-grid-tile>
-  <mat-grid-tile  [colspan]="3"  [rowspan] ="5" [style.background]=" 'blue' ">display1</mat-grid-tile>
+  <mat-grid-tile  [colspan]="3"  [rowspan] ="4" [style.background]=" 'blue' ">display1</mat-grid-tile>
   
 </mat-grid-list>
+<!-- matgrid end-->

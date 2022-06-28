@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //new
-
+import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
@@ -14,12 +14,14 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     DashboardComponent
   ],
   exports:[
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatGridListModule
+    MatGridListModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,150 @@
+//arrow img
+.leftarrowimg{
+ // margin-left: 10px;
+ margin-right: 384px
+}
+//title
+.title{
+  margin-right: 304px;
+}
+//mat card..freshvegtables
+.freshvegtables-card {
+    max-width: 101px;
+    margin-top: -428px;
+    // background-color: rgb(243, 234, 243);
+    background-color: white;
+    // font-size: small;
+    // font-weight: normal;
+    margin-bottom: 5px;
+    position: inherit;
+    padding: 7px;
+
+  }
+  
+  .freshvegtables-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url('../assets/onion.jpg');
+    background-size: cover;
+    //display: block;
+    margin-left: 28px;
+    margin-bottom: 2px;
+    //margin-right: auto;
+    width: 50%;
+    //align-items: center;
+  }
+  .freshvegtables-card-title{
+    font-size: small;
+    align-items: center;
+  }
+  //mat-card-leafy
+  .leaf-card {
+    max-width: 108px;
+    margin-top: 18px;
+    background-color: white;
+    // font-size: small;
+    // font-weight: normal;
+    margin-bottom: 5px;
+    position: inherit;
+    padding: 7px;
+  }
+  
+  .leaf-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url('../assets/palak.jpg');
+    background-size: cover;
+    //display: block;
+    margin-left: 28px;
+    margin-bottom: 2px;
+    //margin-right: auto;
+    width: 50%;
+    //align-items: center;
+  }
+  //mat-card-mango
+  .mango-card {
+    max-width: 108px;
+    margin-top: -165px;
+    background-color: white;
+    // font-size: small;
+    // font-weight: normal;
+    margin-bottom: 5px;
+    position: inherit;
+    padding: 7px;
+  }
+  
+  .mango-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url('../assets/mango.jpg');
+    background-size: cover;
+    //display: block;
+    margin-left: 28px;
+    margin-bottom: 2px;
+    //margin-right: auto;
+    width: 50%;
+    //align-items: center;
+  }
+   //mat-card-exotics
+   .exotics-card {
+    max-width: 108px;
+    margin-top: 190px;
+    background-color: white;
+    // font-size: small;
+    // font-weight: normal;
+    margin-bottom: 5px;
+    position: inherit;
+    padding: 7px;
+  }
+  
+  .exotics-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url('../assets/broccoli.jpg');
+    background-size: cover;
+    //display: block;
+    margin-left: 28px;
+    margin-bottom: 2px;
+    //margin-right: auto;
+    width: 50%;
+    //align-items: center;
+  }
+
+  //mat-card-freshcuts
+  .freshcuts-card {
+    max-width: 108px;
+    margin-top: 370px;
+    background-color:whitesmoke;
+   // background-color: rgb(243, 234, 243);
+    // font-size: small;
+    // font-weight: normal;
+    margin-bottom: 5px;
+    position: inherit;
+    padding: 7px;
+  }
+  
+  .freshcuts-header-image {
+    // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-image: url('../assets/pineapple.jpg');
+    background-size: cover;
+    //display: block;
+    margin-left: 28px;
+    margin-bottom: 2px;
+    //margin-right: auto;
+    width: 50%;
+    //align-items: center;
+  }
+
+
+  //headerFruits
+ .headerFruits{
+  top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+ }
