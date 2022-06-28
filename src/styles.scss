@@ -2,3 +2,197 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+.my-select-panel-class {
+    width:20px;
+    max-width:20px;
+    background-color: red;
+    //font-size: 10px;
+}
+.mat-select{
+    width:350px;
+    height: 50px;
+    background-color: rgb(113, 245, 83);
+    color: aqua;
+
+.mat-option{
+    // width:350px !important;
+    // height: 150px !important;
+    // background-color:rgb(100, 57, 35);
+    // color: darkblue;
+    &::-webkit-scrollbar {
+        width: 2px;
+        padding: 20px;
+      }
+      &::-webkit-scrollbar-track {
+        border-radius: 20px;
+        background-color: bisque;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background-color: bisque;
+      }
+}
+}
+
+.mat-select-trigger {
+width: 150px;
+height: 100px;
+// background-color: burlywood;
+// color: chartreuse;
+ z-index: 1000 !important;
+ 
+visibility: visible !important;
+
+
+}
+
+.mat-select-value{
+//     width: 50px;
+// height: 100px;
+// background-color: rgb(234, 118, 201);
+// color: darkred;
+// visibility: visible !important;
+
+}
+
+.payslipMatOption.mat-option {
+
+    // line-height: 1.6 !important;
+    // margin-top: 1px rgb(213, 134, 235);
+    // padding:20px 16px !important;  
+  
+  }
+
+///...................................................
+// position: absolute;
+// pointer-events: auto;
+// box-sizing: border-box;
+// z-index: 1000;
+// display: flex;
+// max-width: 100%;
+// max-height: 100%;
+// transform: none !important;
+
+
+
+.matSelect {
+    min-width: 290px !important;
+    position: relative !important;
+    border: 1px solid ;
+    width: 290px;
+    height: 30px;
+    border-radius: 8px;
+    background-color: red;
+  
+    .mat-options {
+      height: 200px !important;
+      width: 290px !important;
+      position: absolute !important;
+    }
+  }
+  .mat-options {
+    // height: 50px !important;
+    // width: 290px !important;
+  }
+  
+  .mat-select-panel .mat-option {
+    // height: 50px !important;
+    &::-webkit-scrollbar {
+        width: 2px;
+        padding: 20px;
+      }
+      &::-webkit-scrollbar-track {
+        border-radius: 20px;
+        background-color: bisque;
+      }
+      &::-webkit-scrollbar-thumb {
+        border-radius: 20px;
+        background-color: bisque;
+      }
+  }
+  .mat-select-panel {
+    min-width: 290px !important;
+  }
+  .mat-select-value {
+    padding-left: 12px;
+    color: blue;
+    font-size: 12px;
+    padding-top: 4px;
+    border-radius: 8px;
+    padding-bottom: 6px;
+    // background-color: purple;
+  }
+//   .mat-select-panel-wrap {
+//     position: relative;
+//     top: 34px;
+//     left: -4px;
+//   }
+
+
+/// //........................................................
+
+
+
+// .mat-select-panel .mat-optgroup-label, .mat-select-panel .mat-option {
+//     font-size: inherit;
+//     line-height: 3em;
+//     height: 3em;
+// }
+
+// .mat-option {
+//     white-space: nowrap;
+//     overflow: hidden;
+//     text-overflow: ellipsis;
+//     display: block;
+//     line-height: 48px;
+//     height: 48px;
+//     padding: 0 16px;
+//     text-align: left;
+//     text-decoration: none;
+//     max-width: 100%;
+//     position: relative;
+//     cursor: pointer;
+//     outline: none;
+//     display: flex;
+//     flex-direction: row;
+//     max-width: 100%;
+//     box-sizing: border-box;
+//     align-items: center;
+//     -webkit-tap-highlight-color: transparent;
+// }
+
+// .mat-option {
+//     color: rgba(0,0,0,0.87);
+// }
+
+// .mat-option {
+//     font-family: Roboto, "Helvetica Neue", sans-serif;
+//     font-size: 16px;
+// }
+// style attribute {
+//     transform-origin: 50% top 0px;
+//     font-size: 16px;
+//     opacity: 1;
+//     min-width: calc(100% + 32px);
+//     transform: scaleY(1);
+// }
+// style attribute {
+//     min-width: 179.993px;
+//     pointer-events: auto;
+//     font-size: 16px;
+//     top: 59.4828px;
+//     left: 41.9899px;
+//     transform: translateX(-16px);
+// }
+
+// .cdk-overlay-pane {
+//     position: absolute;
+//     pointer-events: auto;
+//     box-sizing: border-box;
+//     z-index: 1000;
+//     display: flex;
+//     max-width: 100%;
+//     max-height: 100%;
+// }

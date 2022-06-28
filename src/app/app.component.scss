@@ -1,11 +1,14 @@
+.mat-grid-list{
+  backdrop-filter: blur(10px);
+}
 //arrow img
 .leftarrowimg{
  // margin-left: 10px;
- margin-right: 384px
+ margin-right: 45px
 }
 //title
 .title{
-  margin-right: 304px;
+  margin-right: 73px;
 }
 //mat card..freshvegtables
 .freshvegtables-card {
@@ -110,7 +113,7 @@
   .freshcuts-card {
     max-width: 108px;
     margin-top: 370px;
-    background-color:whitesmoke;
+    background-color:rgb(245, 245, 245);
    // background-color: rgb(243, 234, 243);
     // font-size: small;
     // font-weight: normal;
@@ -148,3 +151,144 @@
     font-size: 20px;
     font-weight: bold;
  }
+ .selectoption{
+  margin-right: 50px;
+ }
+//.........................................
+ .freshstock-card{
+ // max-width: 108px;
+   // margin-top: 370px;
+   width: 125px;
+   height: 47px;
+   margin-top: 15px;
+   margin-left: 78px;
+    background-color:rgb(152, 228, 167);
+   // background-color: rgb(243, 234, 243);
+    // font-size: small;
+    // font-weight: normal;
+   // margin-bottom: 5px;
+   // position: inherit;
+   // padding: 7px;
+ }
+ .freshstock-header-image
+ {
+ // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+ background-image: url('../assets/freshfood.webp');
+ background-size: cover;
+ //display: block;
+ //margin-left: 28px;
+ //margin-bottom: 2px;
+ //margin-right: auto;
+ width: 50%;
+ //align-items: center;
+ }
+
+
+ .freshstock-card-title{
+
+  font-size: small;
+ }
+ //.........................................................
+ .sample{
+  align-items: flex-start;
+  display: inline;
+
+ }
+ .highquality{
+  color: brown;
+  margin-top: -112px;
+  /* left: 60px; */
+  margin-left: 33px;
+  /* text-align: center; */
+  padding-left: 362px;
+  font-size: 17px;
+ }
+ .healthycards{
+  margin-top: -6px;
+  margin-left: -391px;
+  display: flex;
+ }
+ .covid{
+margin-top: 138px;
+
+ }
+
+
+ //.........................................
+ .quality-card{
+  // max-width: 108px;
+    // margin-top: 370px;
+    width: 125px;;
+    height: 47px;
+    margin-top: 15px;
+    margin-left: 132px;
+    margin-right: 77px;
+     background-color:rgb(152, 228, 167);
+    // background-color: rgb(243, 234, 243);
+     // font-size: small;
+     // font-weight: normal;
+    // margin-bottom: 5px;
+    // position: inherit;
+    // padding: 7px;
+  }
+  .quality-header-image
+  {
+  // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url('../assets/qualitycheck.webp');
+  background-size: cover;
+  //display: block;
+  //margin-left: 28px;
+  //margin-bottom: 2px;
+  //margin-right: auto;
+  width: 50%;
+  margin-top: -9px;
+  //align-items: center;
+  }
+ 
+ 
+  .quality-card-title{
+ 
+   font-size: small;
+  }
+  //.........................................................
+
+
+
+  //.........................................
+ .seasonal-card{
+  // max-width: 108px;
+    // margin-top: 370px;
+    width: 112px;
+    height: 47px;
+    margin-top: 15px;
+    margin-left: 171px;
+    margin-right: 106px;
+     background-color:rgb(152, 228, 167);
+    // background-color: rgb(243, 234, 243);
+     // font-size: small;
+     // font-weight: normal;
+    // margin-bottom: 5px;
+    // position: inherit;
+    // padding: 7px;
+  }
+  .seasonal-header-image
+  {
+  // background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-image: url('../assets/moreproducts.webp');
+  background-size: cover;
+  //display: block;
+  //margin-left: 28px;
+  //margin-bottom: 2px;
+  //margin-right: auto;
+
+  width: 86%;
+    margin-top: -15px;
+  //align-items: center;
+  }
+ 
+ 
+  .seasonal-card-title{
+ 
+   font-size: small;
+  }
+  //.........................................................

@@ -12,6 +12,77 @@
 
     
     Fruits And Vegetables
+    
+  </div>
+  <!-- mat select start -->
+  <!-- <div> -->
+    <div class="selectoption">
+  <form>
+
+    <mat-label>All Categories</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="row"  >
+      <mat-option   *ngFor ="let row of ProductData" [value]="row.category_name" (change)="changeClient(row.category_name)">
+        {{row.category_name}}
+        
+        
+        <!-- <mat-option   *ngFor ="let row of ProductData.product_list" [value]="row.product_name" (change)="changeClient(row.category_name)">
+          {{row.product_name}} -->
+
+      </mat-option>
+    </mat-select>
+
+    <!-- <h4>mat-select</h4> -->
+  <!-- <mat-form-field appearance="fill" style="margin-left: 50px;">
+  <mat-label>All Categories</mat-label>
+  <mat-select [(ngModel)]="selectedValue" name="food" >
+    <mat-option   *ngFor="let food of foods" [value]="food.value">
+      {{food.viewValue}}
+
+      
+    </mat-option>
+  </mat-select>
+  </mat-form-field> -->
+
+
+<!-- //working categories -->
+  <!-- <mat-label>All Categories</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="row" >
+      <mat-option   *ngFor ="let row of ProductData" [value]="row.category_name">
+        {{row.category_name}}
+        
+        
+      </mat-option>
+    </mat-select> -->
+    
+
+
+
+  <!-- <mat-form-field appearance="fill">
+    <mat-label>Choose a technology</mat-label>
+    <mat-select>
+      <mat-option value="html"> HTML </mat-option>
+      <mat-option value="css" disabled>CSS (disabled)</mat-option>
+      <mat-option value="js">JAVASCRIPT</mat-option>
+    </mat-select>
+  </mat-form-field> -->
+
+  <!-- <mat-label>Favorite food</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="food">
+      <mat-option *ngFor="let food of foods" [value]="food.value">
+        {{food.viewValue}}
+      </mat-option>
+    </mat-select> -->
+
+
+
+
+
+    
+</form>
+  </div>
+    <!-- mat select end -->
+  <div class="searchimg">
+    <img src='assets/search.jpg'  width="50" height="60"  >
   </div>
   </mat-grid-tile>
   <mat-grid-tile [colspan]="1" [rowspan] ="5" [style.background]=" 'white ' "  >
@@ -57,8 +128,64 @@
 </mat-card>
 <!-- matcard end-->
   </mat-grid-tile>
-  <mat-grid-tile  [colspan]="3"  [rowspan] ="1" [style.background]=" 'green' ">display</mat-grid-tile>
-  <mat-grid-tile  [colspan]="3"  [rowspan] ="4" [style.background]=" 'blue' ">display1</mat-grid-tile>
+  <mat-grid-tile  [colspan]="3"  [rowspan] ="1.5" [style.background]=" 'rgb(152, 228, 167)' "  [style.color]="'rgb(25, 54, 15)'"
+  [style.margin-bottom]="'10px'" [style.margin-top]="'-10px'" class="sample" ><div class="highquality">HighQuality Farm Fresh</div>
+<div class="healthycards">
+ <!-- matcard start -->
+ <mat-card class="freshstock-card">
+  <mat-card-header>
+    <div mat-card-avatar class="freshstock-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="freshstock-card-title">Fresh Stock Everyday</mat-card-title>
+</mat-card>
+<!-- matcard end-->
+
+<mat-card class="quality-card">
+  <mat-card-header>
+    <div mat-card-avatar class="quality-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="quality-card-title">Quality Check Every 3 Hrs</mat-card-title>
+</mat-card>
+
+
+<mat-card class="seasonal-card">
+  <mat-card-header>
+    <div mat-card-avatar class="seasonal-header-image"></div>
+  </mat-card-header>
+  <mat-card-title class="seasonal-card-title">80+ seasonal and exotic produce</mat-card-title>
+</mat-card>
+
+</div>
+<div class="covid"> * covid   safety   protocol   followed   at  every   step</div>
+  </mat-grid-tile>
+  <mat-grid-tile  [colspan]="3"  [rowspan] ="4" [style.background]=" 'whitesmoke' ">
+<!-- table -->
+    <table class="table"> 
+      <thead>
+          <tr>
+            
+              <th scope="col">First Name</th>
+              
+              
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor ="let row of ProductData">
+            <td>{{row.category_name}}</td>
+            <td>{{row.total_products}}</td>
+
+
+            <!-- <tr *ngFor ="let row of ProductData.categories">
+              <td>{{row.product_list[0].product_name}}</td> -->
+              <!-- <td>{{row.product_name}}</td> -->
+              <!-- <td>{{row.total_products}}</td> -->
+              
+              
+          </tr>
+      </tbody>
+  </table> 
+<!-- table -->
+  </mat-grid-tile>
   
 </mat-grid-list>
 <!-- matgrid end-->

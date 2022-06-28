@@ -1,0 +1,60 @@
+{
+    "post":
+[
+{
+"category_name":"Cat 1",
+"category_img":"moreproducts ",
+"total_products":80,
+
+"product_list": [
+{
+"product_name":"product 1 ",
+"discount":20,
+"mrp":50,
+"selling_price":45,
+"qty":1,
+"unit":"20kg",
+"product_img":"bunchofonion"
+},
+{
+    "product_name":"product 2 ",
+"discount":21,
+"mrp":51,
+"selling_price":41,
+"qty":2,
+"unit":"10kg",
+"product_img":"bunchofpotato"
+
+}
+]
+},
+
+{
+    "category_name":"Cat 2",
+    "category_img":"palak ",
+    "total_products":60,
+    
+    "product_list": [
+    {
+    "product_name":"product 1 ",
+    "discount":40,
+    "mrp":45,
+    "selling_price":43,
+    "qty":5,
+    "unit":"52kg",
+    "product_img":"bunchofonion"
+    },
+    {
+        "product_name":"product 2 ",
+    "discount":31,
+    "mrp":11,
+    "selling_price":21,
+    "qty":4,
+    "unit":"31kg",
+    "product_img":"bunchofpotato"
+    
+    }
+    ]
+    }
+]
+}
