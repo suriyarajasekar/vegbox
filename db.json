@@ -3,7 +3,7 @@
 [
 {
 "category_name":"Cat 1",
-"category_img":"moreproducts ",
+"category_img":"moreproducts.webp ",
 "total_products":80,
 
 "product_list": [
@@ -31,7 +31,7 @@
 
 {
     "category_name":"Cat 2",
-    "category_img":"palak ",
+    "category_img":"bunchofpotato.jpg ",
     "total_products":60,
     
     "product_list": [

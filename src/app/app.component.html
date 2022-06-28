@@ -20,8 +20,9 @@
   <form>
 
     <mat-label>All Categories</mat-label>
-    <mat-select [(ngModel)]="selectedValue" name="row"  >
-      <mat-option   *ngFor ="let row of ProductData" [value]="row.category_name" (change)="changeClient(row.category_name)">
+    <mat-select [(ngModel)]="selectedValue" name="row"   >
+      <mat-option>All Categories</mat-option>
+      <mat-option   *ngFor ="let row of ProductData" [value]="row.category_name" (blur)="changeClient(row.category_name)">
         {{row.category_name}}
         
         
@@ -171,10 +172,21 @@
       </thead>
       <tbody>
           <tr *ngFor ="let row of ProductData">
-            <td>{{row.category_name}}</td>
-            <td>{{row.total_products}}</td>
+            <!-- <td>{{row.category_name}}</td>
+            <td>{{row.total_products}}</td> -->
+
+           <td style="margin-left: 20px;margin-right: 20px;"> <mat-card >
+              <mat-card-header>
+                <!-- <div mat-card-avatar class="mango-header-image"></div> -->
+                <img src='assets/{{row.category_img}}'  width="50" height="60">
+              </mat-card-header>
+             
+             <mat-card-title class="freshvegtables-card-title">{{row.category_name}}</mat-card-title>
+            <p>{{row.total_products}}</p>
+            </mat-card>
 
 
+          </td>
             <!-- <tr *ngFor ="let row of ProductData.categories">
               <td>{{row.product_list[0].product_name}}</td> -->
               <!-- <td>{{row.product_name}}</td> -->

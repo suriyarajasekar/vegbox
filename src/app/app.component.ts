@@ -3,6 +3,7 @@ import{categories}from './app.model'
 import { HttpClient } from '@angular/common/http'
 import { map } from 'rxjs/operators'
 import { pipe } from 'rxjs';
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 //mat select interface
 interface Food {
   value: string;
@@ -24,12 +25,14 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
   title = 'vegbox';
   ProductData!:any;
+  ProductData1!:any;
   name:string="";
 
   ngOnInit(): void {
     this.getAllEmployee();
    this.name= this.ProductData.category_name[1].value;
    console.log(this.name);
+   console.log(this.selectedValue)
   }
 //getmethod...........
 getEmployee() {
@@ -41,10 +44,12 @@ getEmployee() {
 //......................
 
 getAllEmployee() {
-  this.getEmployee()
+ 
+this.ProductData1  = this.getEmployee()
     .subscribe(res => {
       this.ProductData = res;
     })
+    console.log(this.ProductData1.category_name)
 }
 
 //......................
@@ -69,7 +74,9 @@ getAllEmployee() {
   //..............
 
   changeClient(data:any){
+    console.log(data)
     alert("selected --->"+data);
+    console.log(this.selectedValue)
   }
 
 
